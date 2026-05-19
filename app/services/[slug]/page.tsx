@@ -161,7 +161,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                   <input type="text" placeholder="Name" className="p-3 bg-slate-50 border rounded-md text-sm" />
                   <input type="text" placeholder="Phone" className="p-3 bg-slate-50 border rounded-md text-sm" />
                   <textarea placeholder="Tell us about the issue" className="p-3 bg-slate-50 border rounded-md text-sm min-h-[80px]"></textarea>
-                  <Button type="submit" variant="primary" className="font-bold">
+                  <Button type="submit" variant="orange" className="font-bold">
                     <Calendar className="mr-2 h-4 w-4" /> Request Quote
                   </Button>
                 </form>
